@@ -17,6 +17,10 @@
 		<main>
 			<section class="container">
 				<h2>Meus pacientes</h2>
+				<label for="filtrar-tabela">Filtre:</label>
+				<input type="text" name="filtro" id="filtrar-tabela" 
+				placeholder="digite o noem do paciente">
+				
 				<table>
 					<thead>
 						<tr>
@@ -75,6 +79,11 @@
 	
 		<section class="container">
 			<h2 id="titulo-form">Adicionar novo paciente</h2>
+			<ul id="mensagens-erro">
+
+			</ul>
+			
+			
 			<form id="form-adiciona">
 				<div class="grupo">
 					<label for="nome">Nome:</label>
@@ -99,6 +108,8 @@
 
 	<script src="js/calcula-imc.js"></script>
 	<script src="js/form.js"></script>
+	<script src="js/remover-paciente.js"></script>
+	a,<script src="js/filtra.js"></script>
 
 	</body>
 </html>
